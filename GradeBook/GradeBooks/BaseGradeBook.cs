@@ -205,7 +205,7 @@ namespace GradeBook.GradeBooks
             }
         }
 
-        public virtual char GetLetterGrade(double averageGrade)
+        public char GetLetterGrade(double averageGrade)
         {
             if (averageGrade >= 90)
                 return 'A';
