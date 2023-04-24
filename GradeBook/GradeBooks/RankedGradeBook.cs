@@ -22,7 +22,7 @@ namespace GradeBook.GradeBooks
 
            
 
-            var threshold = (int)Math.Ceiling(Students.Count * 0.2);
+          /*  var threshold = (int)Math.Ceiling(Students.Count * 0.2);
             var grades = Students.OrderByDescending(e => e.AverageGrade).Select(e => e.AverageGrade).ToList();
 
             if (averageGrade >= grades[threshold - 1])
@@ -32,9 +32,12 @@ namespace GradeBook.GradeBooks
             if (averageGrade >= grades[(threshold * 3) - 1])
                 return 'C';
             if (averageGrade >= grades[(threshold * 4) - 1])
-                return 'D';
+                return 'D';*/
             return 'F';
         }
+
+
+
 
        
 
